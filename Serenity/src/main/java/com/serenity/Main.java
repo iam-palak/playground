@@ -147,42 +147,42 @@ public class Main {
 //    }
 
         //Mini Project
-//
-//
-//        int a = (int) (Math.random()*100);
-//        System.out.println("----- Check if your number matches the lucky number -----");
-//
-//        Scanner sc = new Scanner (System.in);
-//
-//
-//        while(true){
-//            System.out.print("Enter a number : ");
-//            int b = sc.nextInt();
-//            if (b < 0){
-//                System.out.println(" You have entered an invalid number. GAME OVER !!!");
-//                break;
-//            }
-//            else if (b < a){
-//                System.out.println("Your number is smaller than the lucky number. Try again !!");
-//            }
-//            else if (b > a){
-//                System.out.println("Your number is bigger than the lucky number. Try again !!");
-//            }
-//            else{
-//                System.out.println("You have entered " + b + " and the lucky number is " + a +". Congratulations !!!");
-//                break;
-//            }
-//
-//        }
-//
+
+
+       int a = (int) (Math.random()*100);
+       System.out.println("----- Check if your number matches the lucky number -----");
+
+       Scanner sc = new Scanner (System.in);
+
+
+       while(true){
+           System.out.print("Enter a number : ");
+           int b = sc.nextInt();
+           if (b < 0){
+               System.out.println(" You have entered an invalid number. GAME OVER !!!");
+               break;
+           }
+           else if (b < a){
+               System.out.println("Your number is smaller than the lucky number. Try again !!");
+           }
+           else if (b > a){
+               System.out.println("Your number is bigger than the lucky number. Try again !!");
+           }
+           else{
+               System.out.println("You have entered " + b + " and the lucky number is " + a +". Congratulations !!!");
+               break;
+           }
+
+       }
+
 
         // First 10 even numbers
 
 
-        for (int i=1; i<=10; i++){
-            if(i%2 == 0)
-                System.out.println(i);
-        }
+        // for (int i=1; i<=10; i++){
+        //     if(i%2 == 0)
+        //         System.out.println(i);
+        // }
 
 
     }
