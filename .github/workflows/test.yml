@@ -17,6 +17,7 @@ jobs:
         sudo apt update && sudo apt-get install openjdk-8-jre
 
     - name: Verify version
-      run:
+      run: |
+        echo $JAVA_HOME
         echo "Java Version is  "  
         java -version
