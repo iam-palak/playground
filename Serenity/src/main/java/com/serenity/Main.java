@@ -169,7 +169,7 @@ public class Main {
                System.out.println("Your number is bigger than the lucky number. Try again !!");
            }
            else{
-               System.out.println("You have entered " + b + " and the lucky number is " + a +". Congratulations !!!");
+               System.out.println("You have entered " + b + " and the lucky number is " + a +". Yayy!! Congratulations !!!");
                break;
            }
 
