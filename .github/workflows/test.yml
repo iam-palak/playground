@@ -12,10 +12,10 @@ jobs:
   test1:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Dependencies
-      - run: 
-          sudo apt update && sudo apt-get install openjdk-8-jre
+    - name: Install Dependencies
+      run: 
+        sudo apt update && sudo apt-get install openjdk-8-jre
 
-      - name: Verify version
-      - run:  
-          echo VAR > java --version
+    - name: Verify version
+      run:  
+        echo VAR > java --version
