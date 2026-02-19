@@ -3,7 +3,7 @@ name: Test
 on:
   push:
     branches:
-      - test
+      - test1
       - '!main'
     tags:
       - tag1
