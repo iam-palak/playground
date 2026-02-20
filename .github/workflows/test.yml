@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - test1
+      - '!main'
+    tags:
+      - tag1
+
+jobs:
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Dependencies
+      run: 
+        sudo apt update && sudo apt-get install openjdk-8-jre
+
+    - name: Verify version
+      run: |
+        echo $JAVA_HOME
+        echo "Java Version is  "  
+        java -version
